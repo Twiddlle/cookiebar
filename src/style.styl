@@ -1,0 +1,85 @@
+.eu-cookie-bar {
+  &.eu-cookie-bar-container {
+
+    &.eu-cookie-bar-visible{
+      opacity 1
+    }
+
+    width 400px
+    max-width 100%
+    font-size 13px
+    padding 10px
+    right 0
+    bottom 0
+    z-index 10
+    box-sizing border-box
+    color white
+    position fixed
+    opacity 0.1
+    transition: opacity .5s;
+
+    .eu-cookie-bar-title{
+      font-weight bold
+      color #51adde
+      font-size 120%
+      padding-bottom 10px
+    }
+
+    .eu-cookie-bar-content {
+      padding 20px 80px 40px 20px
+      background #04040e
+      border 1px solid #30356c
+
+      .eu-cookie-bar-btn {
+        cursor pointer
+        display block
+      }
+
+      .eu-cookie-bar-close-btn {
+        position absolute
+        padding 10px
+        right 15px
+        top 10px
+
+        &:hover{
+          color #51adde
+        }
+      }
+
+      .eu-cookie-bar-text {
+        clear both
+        color #ccc
+        padding-bottom 10px
+      }
+
+      .eu-cookie-bar-bottom-btn {
+
+        &,&:active,&:visited{
+          float left
+          border 1px solid #30356c
+          padding 5px 12px
+          color #ccc
+          text-decoration none
+          text-align center
+          background #100214
+        }
+
+        &:hover{
+          background #100214
+          color #51adde
+        }
+
+        &.eu-cookie-bar-ok-btn {
+
+
+        }
+
+        &.eu-cookie-bar-more-btn {
+          margin-left 20px
+        }
+      }
+
+    }
+  }
+
+}

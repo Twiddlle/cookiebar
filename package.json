@@ -1,0 +1,39 @@
+{
+  "name": "cookiebar",
+  "version": "1.0.0",
+  "description": "Cookie notification bar for EU cookie law",
+  "main": "dist/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "webpack": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VladoD99/cookiebar.git"
+  },
+  "keywords": [
+    "cookiebar",
+    "eu"
+  ],
+  "author": "VladoD99",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VladoD99/cookiebar/issues"
+  },
+  "homepage": "https://github.com/VladoD99/cookiebar#readme",
+  "devDependencies": {
+    "babel-loader": "^7.1.4",
+    "css-loader": "^0.28.11",
+    "eslint": "^4.19.1",
+    "style-loader": "^0.21.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.14"
+  }
+}
