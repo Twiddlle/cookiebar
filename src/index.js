@@ -9,7 +9,7 @@ class CookieBar {
             cookieName: 'eucookiebar',
             showOnce: false,
             cookieExpiration: 60 * 60 * 24 * 365,
-            lang: '',
+            lang: 'auto',
             body: {
                 heading: 'Cookie Disclaimer',
                 text: 'This site uses cookies and similar technologies on its websites. By continuing your browsing after being presented with the cookie information you consent to such use.',
