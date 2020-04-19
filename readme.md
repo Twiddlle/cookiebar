@@ -4,7 +4,7 @@ Cookie notification bar for EU cookie law
 
 ## Installation
 ```bash
-npm i --save https://github.com/VladoD99/cookiebar.git
+npm i --save https://github.com/Twiddlle/cookiebar.git
 ```
 
 ## Usage
